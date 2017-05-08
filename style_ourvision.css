@@ -1,0 +1,115 @@
+
+/* Set box-sizing to border-box for all elements */
+html {
+  box-sizing: border-box;
+}
+/* Play nicely with other components */
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+header {
+  overflow: auto;
+  font-family: sans-serif;  
+  background-color: white;
+}
+
+.logo{
+  width: 45px;
+  height: 45px;
+  float: left;
+  margin: 10px 10px;
+}
+
+h1 {
+  font-size: 30px;
+  float: left;
+}
+
+a{
+  text-decoration: none;
+  color: #2F4F4F;
+}
+
+.navigationheader{
+  margin-top: 40px;
+  margin-right: 10px;
+  padding: 10px;
+  float: right;
+}
+
+.navigationlink {
+  display: inline-block;
+  font-size: 14px;
+  letter-spacing: 1px;  
+  text-decoration: none;
+  margin-left: 1em;
+}
+
+.background{
+  background-image: url("images/hands.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+  padding: 0 50px 50px 50px;
+}
+
+.statement{
+  font-family: sans-serif;
+  text-align: left;
+  font-size: 30px;
+  color: #2F4F4F;
+}
+
+.plus{
+  font-family: sans-serif;
+  text-align: left;
+  font-size: 30px;
+  font-weight: bold; 
+  padding: 0 70px;
+  color: #2F4F4F;
+} 
+
+.match{
+  font-family: sans-serif;
+  text-align: right;
+  font-size: 30px;
+}
+
+.ourvision{
+  padding: 50px;
+  font-family: sans-serif;
+  letter-spacing: 1px;  
+}
+
+footer{  
+  overflow: auto;
+  font-size: 18px;
+  background-color: white;
+  border-top: 15px solid #F5F5F5;
+}
+
+h4{
+  float: left;
+}
+
+.navigationend{
+  padding: 10px;
+  float: right;
+}
+
+.navigationfooter {
+  float: left;
+  display: inline;
+  font-family: sans-serif;  
+  font-size: 14px;
+  letter-spacing: 1px; 
+  margin-left: 1em;
+  margin-right: 10px;
+}
+
+.socialmedia{
+  display: inline;
+  clear: both;
+}
+
