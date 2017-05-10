@@ -1,3 +1,4 @@
+
 /* Set box-sizing to border-box for all elements */
 html {
   box-sizing: border-box;
@@ -45,15 +46,39 @@ a{
   margin-left: 1em;
 }
 
-.volunteers{
-  background-image: url("images/kind.png");
+.background{
+  background-image: url("../images/hands.png");
+  background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-  padding: 250px 0;
-  opacity: 0.6;
+  opacity: 0.8;
+  padding: 0 50px 50px 50px;
+}
+
+.statement{
   font-family: sans-serif;
-  color: black;
-  font: 30px;
+  text-align: left;
+  font-size: 30px;
+  color: #2F4F4F;
+}
+
+.plus{
+  font-family: sans-serif;
+  text-align: left;
+  font-size: 30px;
+  font-weight: bold; 
+  padding: 0 70px;
+  color: #2F4F4F;
+} 
+
+.match{
+  font-family: sans-serif;
+  text-align: right;
+  font-size: 30px;
+}
+
+.ourvision{
+  padding: 50px;
+  font-family: sans-serif;
   letter-spacing: 1px;  
 }
 
@@ -87,3 +112,4 @@ h4{
   display: inline;
   clear: both;
 }
+
