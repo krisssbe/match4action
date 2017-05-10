@@ -46,13 +46,11 @@ a{
 }
 
 .volunteers{
-  background-image: url("../images/kind.png");
+  background-image: url("../images/children40.png");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 250px 0;
-  opacity: 0.6;
   font-family: sans-serif;
-  color: black;
   font: 30px;
   letter-spacing: 1px;  
 }
