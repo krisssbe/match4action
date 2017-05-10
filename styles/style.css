@@ -21,7 +21,7 @@ header {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 32px;
   float: left;
 }
 
@@ -39,7 +39,7 @@ a{
 
 .navigationlink {
   display: inline-block;
-  font-size: 14px;
+  font-size: 18px;
   letter-spacing: 1px;  
   text-decoration: none;
   margin-left: 1em;
@@ -62,7 +62,7 @@ a{
 .vision{
   padding: 100px 100px;
   font-family: sans-serif;
-  font-size: 18px;
+  font-size: 24px;
   border-bottom: 15px solid #F5F5F5;
   border-top: 15px solid #F5F5F5;
 }
@@ -77,12 +77,12 @@ a{
 
 h2{
   font-size: bold;
-  font-size: 30px;
+  font-size: 32px;
 }
 
 .lowerp {
   padding: 0 30px 0 0;
-  font-size: 22px;
+  font-size: 24px;
 }
 
 .floatsection{
@@ -96,7 +96,7 @@ h2{
 .buttonfloatsection {
   font-weight: bold;
   font-family: sans-serif;
-  font-size: 18px;
+  font-size: 22px;
   letter-spacing: 1px;
   background-color: #C6C6C6;
   border: none;
@@ -135,13 +135,13 @@ h2{
   display: inline-block;
   border-radius: 25px;
   width: 27%;
-  height: 24vw;
+  height: 26vw;
   text-align: center;
   vertical-align: top;
   text-decoration: none;
   padding: 40px 50px;
   font-family: sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   color: #2F4F4F;
   background-color: white;
   letter-spacing: 1px;
