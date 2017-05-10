@@ -113,18 +113,17 @@ h2{
   padding: 100px 100px;
   text-align: center;
   color: #2F4F4F;
-  border-bottom: 15px solid #F5F5F5;
-  border-top: 15px solid #F5F5F5;
 }
 
 .carousel{
-  padding: 200px;
+  border-top: 15px solid #F5F5F5;
+  padding: 50px;
 }
 
 .carousel_example{
     display: block;
     margin: 0 auto;
-    padding-bottom: 50px;
+    padding-top: 50px;
 }
 
 footer{  
