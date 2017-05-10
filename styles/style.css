@@ -133,6 +133,7 @@ h2{
 .socialcards{
   margin: 0 2.075% 3.61111vw;
   display: inline-block;
+  border-radius: 25px;
   width: 27.8%;
   height: 24.6vw;
   text-align: center;
