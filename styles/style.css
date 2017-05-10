@@ -54,9 +54,9 @@ a{
 }
 
 .matchprocess{
-    display: block;
-    margin: 0 auto;
-    padding-bottom: 100px;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 100px;
 }
 
 .vision{
@@ -131,19 +131,20 @@ h2{
 }
 
 .socialcards{
-  margin: 0 2.075% 3.61111vw;
+  margin: 0 2.9% 3.61111vw;
   display: inline-block;
   border-radius: 25px;
-  width: 27.8%;
-  height: 24.6vw;
+  width: 27%;
+  height: 24vw;
   text-align: center;
   vertical-align: top;
   text-decoration: none;
-  padding: 40px;
+  padding: 40px 50px;
   font-family: sans-serif;
   font-size: 18px;
   color: #2F4F4F;
   background-color: white;
+  letter-spacing: 1px;
 }
 
 .icon{
@@ -156,7 +157,7 @@ h2{
 
 .insta_post{
   display: block;
-  padding-left: 90px;
+  padding-left: 80px;
 }
 
 footer{  
