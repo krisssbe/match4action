@@ -58,9 +58,12 @@ a{
   letter-spacing: 1px;  
 }
 
+/* footer */
+
 footer{  
   overflow: auto;
   font-size: 18px;
+  font-family: sans-serif;  
   background-color: white;
   border-top: 15px solid #F5F5F5;
 }
@@ -82,10 +85,5 @@ h4{
   letter-spacing: 1px; 
   margin-left: 1em;
   margin-right: 10px;
-}
-
-.socialmedia{
-  display: inline;
-  clear: both;
 }
 

@@ -13,6 +13,10 @@ header {
   overflow: auto; 
   font-family: sans-serif;  
   background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 .logo{
@@ -37,7 +41,6 @@ a{
   margin-right: 10px;
   padding: 10px;
   float: right;
-
 }
 
 .navigationlink {
@@ -63,6 +66,21 @@ a{
 */
 
 
+/* hands and vision */
+
+.hands{
+  padding: 50px;
+  font-family: sans-serif;
+  letter-spacing: 1px;  
+  color: #2F4F4F;
+  background-image: url("../images/hands.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+
 /* matching mechanism */
 
 .teaser{
@@ -70,7 +88,8 @@ a{
   font-family: sans-serif;
   text-align: center;
   color: #2F4F4F;
-  padding: 20px 0;
+  padding: 100px 0;
+  border-top: 15px solid #F5F5F5;
 }
 
 .matchprocess{
@@ -96,7 +115,6 @@ a{
   padding: 100px 100px;
   font-family: sans-serif;
   font-size: 24px;
-  border-bottom: 15px solid #F5F5F5;
   border-top: 15px solid #F5F5F5;
 }
 
