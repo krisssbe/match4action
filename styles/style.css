@@ -7,8 +7,10 @@ html {
   box-sizing: inherit;
 }
 
+/* navigation and header */
+
 header {
-  overflow: auto;
+  overflow: auto; 
   font-family: sans-serif;  
   background-color: white;
 }
@@ -35,6 +37,7 @@ a{
   margin-right: 10px;
   padding: 10px;
   float: right;
+
 }
 
 .navigationlink {
@@ -44,6 +47,23 @@ a{
   text-decoration: none;
   margin-left: 1em;
 }
+
+@media screen and (max-width: 1000px) {
+  .navigationlink {
+    font-size: 14px;
+  }
+}
+
+/* change nav to hamburger icon
+@media screen and (max-width: 800px) {
+  .navigationlink {
+    display: none;
+  }
+}
+*/
+
+
+/* matching mechanism */
 
 .teaser{
   font: 30px bold;
@@ -59,6 +79,19 @@ a{
   padding-bottom: 100px;
 }
 
+@media screen and (max-width: 1000px) {
+  .teaser {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .matchprocess {
+    width: 70%;
+  }
+}
+
+/* first text field, vision */
+
 .vision{
   padding: 100px 100px;
   font-family: sans-serif;
@@ -66,6 +99,8 @@ a{
   border-bottom: 15px solid #F5F5F5;
   border-top: 15px solid #F5F5F5;
 }
+
+/* volunteer & organisation section */
 
 .wrapper{
   overflow: auto;
@@ -90,7 +125,7 @@ h2{
   float: left;
   font-family: sans-serif;
   letter-spacing: 1px;  
-  padding: 0 50px 0 50px;
+  padding: 0 10%;
 }
 
 .buttonfloatsection {
@@ -114,20 +149,33 @@ h2{
   color: #2F4F4F;
 }
 
+@media screen and (max-width: 1000px) {
+  .lowerp {
+    display: none;
+  }
+}
+
+/* carousel with impact stories */
+
 .carousel{
   border-top: 15px solid #F5F5F5;
   border-bottom: 15px solid #F5F5F5;
 }
 
 .carousel_example{
-    display: block;
-    margin: 0 auto;
-    padding-top: 50px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 50px;
 }
+
+/* social media section */
 
 .social{
   padding-top: 50px;
   background-color: #F5F5F5;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .socialcards{
@@ -135,7 +183,7 @@ h2{
   display: inline-block;
   border-radius: 25px;
   width: 27%;
-  height: 26vw;
+  height: 23vw;
   text-align: center;
   vertical-align: top;
   text-decoration: none;
@@ -149,20 +197,34 @@ h2{
 
 .icon{
   padding-bottom: 40px;
+  display: block;
+  margin: auto;
 }
 
 .name{
   font-weight: bold;
 }
 
-.insta_post{
-  display: block;
-  padding-left: 80px;
+
+@media screen and (max-width: 1150px) {
+  .post {
+    display: none;
+  }
 }
+
+@media screen and (max-width: 1150px) {
+  .icon {
+    width: 60%;
+    padding-top: 10%;
+  }
+}
+
+/* footer */
 
 footer{  
   overflow: auto;
   font-size: 18px;
+  font-family: sans-serif;  
   background-color: white;
   border-top: 15px solid #F5F5F5;
 }

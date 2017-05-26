@@ -46,6 +46,12 @@ a{
   margin-left: 1em;
 }
 
+@media screen and (max-width: 1000px) {
+  .navigationlink {
+    font-size: 14px;
+  }
+}
+
 .background{
   background-image: url("../images/hands.png");
   background-position: center;

@@ -45,6 +45,12 @@ a{
   margin-left: 1em;
 }
 
+@media screen and (max-width: 1000px) {
+  .navigationlink {
+    font-size: 14px;
+  }
+}
+
 .volunteers{
   background-image: url("../images/children40.png");
   background-repeat: no-repeat;

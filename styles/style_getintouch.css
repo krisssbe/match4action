@@ -46,6 +46,12 @@ a{
   margin-left: 1em;
 }
 
+@media screen and (max-width: 1000px) {
+  .navigationlink {
+    font-size: 14px;
+  }
+}
+
 .getintouch{
   padding: 200px;
   font-family: sans-serif;
