@@ -85,7 +85,15 @@ a{
   font-size: 30px;
   text-align: center;
   color: #2F4F4F;
-  padding-top: 500px;
+}
+
+/* first text field, vision */
+
+.vision{
+  padding: 100px 100px;
+  font-family: sans-serif;
+  font-size: 24px;
+  border-top: 15px solid #F5F5F5;
 }
 
 /* matching mechanism */
@@ -114,15 +122,6 @@ a{
   .matchprocess {
     width: 70%;
   }
-}
-
-/* first text field, vision */
-
-.vision{
-  padding: 100px 100px;
-  font-family: sans-serif;
-  font-size: 24px;
-  border-top: 15px solid #F5F5F5;
 }
 
 /* volunteer & organisation section */
