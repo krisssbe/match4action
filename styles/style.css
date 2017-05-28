@@ -73,11 +73,12 @@ a{
   font-family: sans-serif;
   letter-spacing: 1px;  
   color: #2F4F4F;
-  background-image: url("../images/hands.png");
+  background-image: url("../images/hand_psd.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   height: 100vh;
+  
 }
 
 #statement{
