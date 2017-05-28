@@ -78,7 +78,6 @@ a{
   background-repeat: no-repeat;
   background-attachment: fixed;
   height: 100vh;
-  
 }
 
 #statement{
@@ -86,6 +85,7 @@ a{
   font-size: 30px;
   text-align: center;
   color: #2F4F4F;
+  padding-top: 500px;
 }
 
 /* first text field, vision */
