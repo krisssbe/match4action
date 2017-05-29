@@ -77,6 +77,7 @@ a{
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-size: 45%;
   height: 100vh;
 }
 
