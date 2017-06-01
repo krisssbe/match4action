@@ -11,9 +11,13 @@ html {
 /* navigation and header */
 
 header {
-  overflow: auto;
+  overflow: auto; 
   font-family: sans-serif;  
   background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 .logo{
@@ -54,13 +58,20 @@ a{
   }
 }
 
+@media screen and (max-width: 800px) {
+  .navigationlink {
+    display: block;
+  }
+}
+
 /* main text w background pic */
 
 .ourvision{
-  padding: 50px;
+  padding: 15% 10% 15% 10%;
   font-family: sans-serif;
   letter-spacing: 1px;  
   color: #2F4F4F;
+  height: 500px;
   height: 100vh;
 }
 
@@ -102,3 +113,8 @@ h4{
   margin-right: 10px;
 }
 
+@media screen and (max-width: 800px) {
+  .navigationfooter {
+    display: none;
+  }
+}

@@ -8,9 +8,13 @@ html {
 }
 
 header {
-  overflow: auto;
+  overflow: auto; 
   font-family: sans-serif;  
   background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 .logo{
@@ -51,14 +55,24 @@ a{
   }
 }
 
+@media screen and (max-width: 800px) {
+  .navigationlink {
+    display: block;
+  }
+}
+
+/* main part */
+
 .volunteers{
+  padding: 15% 10% 15% 10%;
   background-image: url("../images/children40.png");
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 250px 0;
   font-family: sans-serif;
   font: 30px;
   letter-spacing: 1px;  
+  height: 500px;
+  height: 100vh;
 }
 
 /* footer */
@@ -90,3 +104,8 @@ h4{
   margin-right: 10px;
 }
 
+@media screen and (max-width: 800px) {
+  .navigationfooter {
+    display: none;
+  }
+}

@@ -9,7 +9,7 @@ html {
 
 /* navigation and header */
 
-header {
+#header-top {
   overflow: auto; 
   font-family: sans-serif;  
   background-color: white;
@@ -51,19 +51,24 @@ a{
   margin-left: 1em;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1260px) {
   .navigationlink {
     font-size: 14px;
+
   }
 }
 
-/* change nav to hamburger icon
 @media screen and (max-width: 800px) {
   .navigationlink {
     display: none;
   }
 }
-*/
+
+@media screen and (min-width: 800px) {
+  #menu_toggler {
+    display: none;
+  }
+}
 
 
 /* hands and vision */
@@ -78,10 +83,11 @@ a{
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 45%;
+  height: 500px;
   height: 100vh;
 }
 
-#statement{
+.statement{
   font-family: sans-serif;
   font-size: 30px;
   text-align: center;
@@ -89,6 +95,17 @@ a{
   padding-top: 500px;
 }
 
+@media screen and (max-width: 1200px) {
+  .statement {
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 1065px) {
+  .statement {
+    font-size: 22px;
+  }
+}
 /* first text field, vision */
 
 .vision{
@@ -98,6 +115,17 @@ a{
   border-top: 15px solid #F5F5F5;
 }
 
+@media screen and (max-width: 1200px) {
+  .vision {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 1065px) {
+  .vision {
+    font-size: 20px;
+  }
+}
 /* matching mechanism */
 
 .teaser{
@@ -120,6 +148,7 @@ a{
     font-size: 24px;
   }
 }
+
 @media screen and (max-width: 1000px) {
   .matchprocess {
     width: 70%;
@@ -164,7 +193,7 @@ h2{
 
 @media screen and (max-width: 1000px) {
   .lowerp {
-    display: none;
+    font-size: 16px;
   }
 }
 
@@ -179,6 +208,12 @@ h2{
   display: block;
   margin: 0 auto;
   padding-top: 50px;
+}
+
+@media screen and (max-width: 1000px) {
+  .carousel_example {
+    width: 70%;
+  }
 }
 
 /* social media section */
@@ -261,3 +296,8 @@ h4{
   margin-right: 10px;
 }
 
+@media screen and (max-width: 1000px) {
+  .navigationfooter {
+    display: none;
+  }
+}

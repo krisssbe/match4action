@@ -8,9 +8,13 @@ html {
 }
 
 header {
-  overflow: auto;
+  overflow: auto; 
   font-family: sans-serif;  
   background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 .logo{
@@ -51,12 +55,20 @@ a{
   }
 }
 
+@media screen and (max-width: 800px) {
+  .navigationlink {
+    display: block;
+  }
+}
+
+/* main part */
+
 h2{
   padding: 50px 0;
 }
 
 .impactstories{
-  padding: 0px 50px 150px 50px;
+  padding: 15% 10% 15% 10%;
   font-family: sans-serif;
   letter-spacing: 1px;  
   color: #2F4F4F;
@@ -96,3 +108,8 @@ h4{
   margin-right: 10px;
 }
 
+@media screen and (max-width: 800px) {
+  .navigationfooter {
+    display: none;
+  }
+}
