@@ -199,16 +199,21 @@ footer a:hover {
   background-size: cover;
   padding: 200px 0;
   color: #2F4F4F;
+  height: 500px;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 h2{
   font-weight: bold;
-  font-size: 32px;
+  font-size: 34px;
 }
 
 .lowerp {
   padding: 0 30px 0 0;
-  font-size: 24px;
+  font-size: 26px;
 }
 
 .floatsection{
@@ -221,9 +226,21 @@ h2{
 .socialimpact{
   font-size: bold;
   font-size: 32px;
-  padding: 100px 100px;
+  /*padding: 100px 100px;*/
   text-align: center;
   color: #2F4F4F;
+}
+
+@media screen and (max-width: 1000px) {
+  .floatsection {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  h2 {
+    font-size: 22px;
+  }
 }
 
 @media screen and (max-width: 1000px) {
@@ -233,51 +250,45 @@ h2{
 }
 
 /* carousel with impact stories */
-
-.carousel{
+/*.carousel{
   border-top: 15px solid #F5F5F5;
   border-bottom: 15px solid #F5F5F5;
 }
-
 .slideshow {
   width: 90%;
   margin: 0 auto;
 }
-
 .slick-prev, .slick-next {
   background-color: red;
 }
-
 @media screen and (max-width: 1000px) {
   .carousel {
     width: 70%;
   }
-}
+}*/
 
 /* social media section */
 
 .social{
-  padding-top: 50px;
+  padding: 50px 20px;
   background-color: #F5F5F5;
-  display: flex;
-  flex-wrap: wrap;
+  display: flex; 
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .socialcards{
-  margin: 0 2.9% 3.61111vw;
-  display: inline-block;
   border-radius: 25px;
   width: 27%;
   height: 23vw;
+  padding: 30px 10px 0 10px;
   text-align: center;
-  vertical-align: top;
   text-decoration: none;
-  padding: 40px 50px;
   font-size: 18px;
   color: #2F4F4F;
   background-color: white;
   letter-spacing: 1px;
+  margin: auto;
 }
 
 .icon{
@@ -302,13 +313,13 @@ h2{
 
 @media screen and (max-width: 1150px) {
   .picture {
-    width: 80%;
+    width: 60%;
   }
 }
 
-@media screen and (max-width: 900px) {
-  .socialcards {
-    width: 80%;
+@media screen and (max-width: 800px) {
+  .picture {
+    width: 40%;
   }
 }
 

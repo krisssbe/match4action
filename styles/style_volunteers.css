@@ -7,6 +7,10 @@ html {
   box-sizing: inherit;
 }
 
+body{
+  font-family: sans-serif;
+}
+
 header {
   overflow: auto; 
   font-family: sans-serif;  
@@ -89,16 +93,61 @@ footer a:hover {
 
 /* main part */
 
-.volunteers{
-  padding: 15% 10% 15% 10%;
+.wrapper{
+  overflow: auto;
   background-image: url("../images/children40.png");
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: sans-serif;
-  font: 30px;
-  letter-spacing: 1px;  
+  padding: 200px 0;
+  color: #2F4F4F;
   height: 500px;
   height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+h2{
+  font-weight: bold;
+  font-size: 34px;
+}
+
+.lowerp {
+  padding: 0 30px 0 0;
+  font-size: 26px;
+}
+
+.floatsection{
+  width: 50%;
+  float: left;
+  letter-spacing: 1px;  
+  padding: 0 10%;
+}
+
+.socialimpact{
+  font-size: bold;
+  font-size: 32px;
+  /*padding: 100px 100px;*/
+  text-align: center;
+  color: #2F4F4F;
+}
+
+@media screen and (max-width: 1000px) {
+  .floatsection {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  h2 {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .lowerp {
+    font-size: 16px;
+  }
 }
 
 /* footer */
