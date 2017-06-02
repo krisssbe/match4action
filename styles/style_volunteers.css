@@ -17,7 +17,7 @@ header {
   right: 0;
 }
 
-.logo{
+#logo{
   width: 45px;
   height: 45px;
   float: left;
@@ -63,13 +63,13 @@ footer a:hover {
   list-style-type: none;
 }
 
-@media screen and (max-width: 1260px) {
-  .navigationlink {
-    font-size: 14px;
+@media screen and (max-width: 800px) {
+  #match4action {
+    font-size: 20px;
   }
 }
 
-@media screen and (max-width: 1140px) {
+@media screen and (max-width: 1000px) {
   .mainnavigation {
     display: block;
   }

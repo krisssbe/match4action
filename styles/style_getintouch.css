@@ -8,9 +8,14 @@ html {
   box-sizing: inherit;
 }
 
+body{
+  font-family: sans-serif;  
+}
+
+/* navigation and header */
+
 header {
   overflow: auto; 
-  font-family: sans-serif;  
   background-color: white;
   position: fixed;
   top: 0;
@@ -18,7 +23,7 @@ header {
   right: 0;
 }
 
-.logo{
+#logo{
   width: 45px;
   height: 45px;
   float: left;
@@ -64,13 +69,13 @@ footer a:hover {
   list-style-type: none;
 }
 
-@media screen and (max-width: 1260px) {
-  .navigationlink {
-    font-size: 14px;
+@media screen and (max-width: 800px) {
+  #match4action {
+    font-size: 20px;
   }
 }
 
-@media screen and (max-width: 1140px) {
+@media screen and (max-width: 1000px) {
   .mainnavigation {
     display: block;
   }
@@ -90,10 +95,11 @@ footer a:hover {
 
 /* main part */
 
-.getintouch{
-  padding: 15% 10% 15% 10%;
-  font-family: sans-serif;
+.getintouch {
+  padding: 25% 10% 15% 10%;
   letter-spacing: 1px;  
+  font-size: 20px;
+  color: #2F4F4F;
   height: 500px;
   height: 100vh;
 }
@@ -103,7 +109,6 @@ footer a:hover {
 footer{  
   overflow: auto;
   font-size: 18px;
-  font-family: sans-serif;  
   background-color: white;
   border-top: 15px solid #F5F5F5;
 }
@@ -120,7 +125,6 @@ h4{
 .navigationfooter {
   float: left;
   display: inline;
-  font-family: sans-serif;  
   font-size: 14px;
   letter-spacing: 1px; 
   margin-left: 1em;
