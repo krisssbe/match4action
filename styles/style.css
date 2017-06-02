@@ -193,8 +193,8 @@ footer a:hover {
 }
 
 @media screen and (max-width: 900px) {
-  .step {
-    width: 100%;
+  .matchprocess {
+    width: 80%;
   }
 }
 
