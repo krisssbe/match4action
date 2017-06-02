@@ -25,40 +25,66 @@ header {
   margin: 10px 10px;
 }
 
-h1 {
+header h1 {
+  margin: 20px 0;
   font-size: 32px;
   float: left;
 }
 
-a{
+/* Apply the same rules to both header and footer */
+header a,
+footer a {
   text-decoration: none;
   color: #2F4F4F;
 }
 
+header a:hover,
+footer a:hover {
+  text-decoration: underline;
+}
+
+.mainnavigation {
+  margin: 15px 0;
+  display: flex; 
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
 .navigationheader{
-  margin-top: 40px;
-  margin-right: 10px;
-  padding: 10px;
+  margin: 20px 20px 20px 0;
+  padding: 0;
   float: right;
 }
 
 .navigationlink {
-  display: inline-block;
   font-size: 18px;
   letter-spacing: 1px;  
   text-decoration: none;
   margin-left: 1em;
+  list-style-type: none;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1260px) {
   .navigationlink {
     font-size: 14px;
   }
 }
 
-@media screen and (max-width: 800px) {
-  .navigationlink {
+@media screen and (max-width: 1140px) {
+  .mainnavigation {
     display: block;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #main_menu {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  #menu_toggler {
+    display: none;
   }
 }
 

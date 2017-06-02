@@ -7,16 +7,20 @@ html {
   box-sizing: inherit;
 }
 
+body{
+  font-family: sans-serif;
+}
+
 /* navigation and header */
 
 header {
   overflow: auto; 
-  font-family: sans-serif;  
   background-color: white;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
+  z-index: 1;
 }
 
 .logo{
@@ -65,14 +69,13 @@ footer a:hover {
   list-style-type: none;
 }
 
-
-@media screen and (max-width: 1260px) {
+@media screen and (max-width: 1100px) {
   .navigationlink {
-    font-size: 14px;
+    font-size: 17px;
   }
 }
 
-@media screen and (max-width: 1140px) {
+@media screen and (max-width: 940px) {
   .mainnavigation {
     display: block;
   }
@@ -95,7 +98,6 @@ footer a:hover {
 
 .hands{
   padding: 50px;
-  font-family: sans-serif;
   letter-spacing: 1px;  
   color: #2F4F4F;
   background-image: url("../images/hand_psd.png");
@@ -105,14 +107,16 @@ footer a:hover {
   background-size: 45%;
   height: 500px;
   height: 100vh;
+  position: relative;
+  border-bottom: 15px solid #F5F5F5;
 }
 
 .statement{
-  font-family: sans-serif;
   font-size: 30px;
   text-align: center;
   color: #2F4F4F;
-  padding-top: 500px;
+  position: absolute;
+  bottom: 20%;
 }
 
 @media screen and (max-width: 1200px) {
@@ -130,9 +134,8 @@ footer a:hover {
 
 .vision{
   padding: 100px 100px;
-  font-family: sans-serif;
   font-size: 24px;
-  border-top: 15px solid #F5F5F5;
+  color: #2F4F4F;
 }
 
 @media screen and (max-width: 1200px) {
@@ -148,13 +151,17 @@ footer a:hover {
 }
 /* matching mechanism */
 
+.process{
+  border-bottom: 15px solid #F5F5F5;
+  border-top: 15px solid #F5F5F5;
+}
+
 .teaser{
-  font: 30px bold;
-  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 32px;
   text-align: center;
   color: #2F4F4F;
   padding: 100px 0;
-  border-top: 15px solid #F5F5F5;
 }
 
 .matchprocess{
@@ -163,7 +170,7 @@ footer a:hover {
   padding-bottom: 100px;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 900px) {
   .teaser {
     font-size: 24px;
   }
@@ -183,10 +190,11 @@ footer a:hover {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 200px 0;
+  color: #2F4F4F;
 }
 
 h2{
-  font-size: bold;
+  font-weight: bold;
   font-size: 32px;
 }
 
@@ -198,14 +206,13 @@ h2{
 .floatsection{
   width: 50%;
   float: left;
-  font-family: sans-serif;
   letter-spacing: 1px;  
   padding: 0 10%;
 }
 
 .socialimpact{
-  font: 30px bold;
-  font-family: sans-serif;
+  font-size: bold;
+  font-size: 32px;
   padding: 100px 100px;
   text-align: center;
   color: #2F4F4F;
@@ -224,10 +231,13 @@ h2{
   border-bottom: 15px solid #F5F5F5;
 }
 
-.carousel_example{
-  display: block;
+.slideshow {
+  width: 90%;
   margin: 0 auto;
-  padding-top: 50px;
+}
+
+.slick-prev, .slick-next {
+  background-color: red;
 }
 
 @media screen and (max-width: 1000px) {
@@ -256,7 +266,6 @@ h2{
   vertical-align: top;
   text-decoration: none;
   padding: 40px 50px;
-  font-family: sans-serif;
   font-size: 18px;
   color: #2F4F4F;
   background-color: white;
@@ -269,10 +278,13 @@ h2{
   margin: auto;
 }
 
-.name{
-  font-weight: bold;
+.picture {
+  width: 40%;
 }
 
+.post{
+  display: block;
+}
 
 @media screen and (max-width: 1150px) {
   .post {
@@ -281,9 +293,8 @@ h2{
 }
 
 @media screen and (max-width: 1150px) {
-  .icon {
-    width: 60%;
-    padding-top: 10%;
+  .picture {
+    width: 80%;
   }
 }
 
@@ -292,7 +303,6 @@ h2{
 footer{  
   overflow: auto;
   font-size: 18px;
-  font-family: sans-serif;  
   background-color: white;
   border-top: 15px solid #F5F5F5;
 }
@@ -309,7 +319,6 @@ h4{
 .navigationfooter {
   float: left;
   display: inline;
-  font-family: sans-serif;  
   font-size: 14px;
   letter-spacing: 1px; 
   margin-left: 1em;

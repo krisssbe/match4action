@@ -2,35 +2,40 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <!-- Necessary meta tags for responsive -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <meta name="description" content="Match4Action - Matching good people to good causes">
     <!-- <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"> -->
     <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/slick.css">
+    <link rel="stylesheet" href="styles/slick-theme.css"> 
     <link rel="stylesheet" href="styles/style.css">
-
-    <!--<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>-->
-    <!--<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>-->
-    
-    <script src="scripts/jquery-3.2.1.min.js"></script>
-    <script src="scripts/script.js"></script>
 
     <title>Match4Action - Matching good people to good causes</title>
   </head>
 
   <body>
     <header class="header-top">
-      
       <img class="logo" src="images/logo.png">
       <h1>
         <a class="Match4Action" href="index.html">Match4Action</a>
       </h1>
       <nav class="navigationheader">
-        <button id="menu_toggler">Menu<a href=""></a> </button>        
+
+        <!-- hamburger menu -->
+        <button id="menu_toggler"><a href=""></a> 
+          <span>
+          </span>
+
+
+        </button>        
         <ul class="mainnavigation" id="main_menu">
           <li class="navigationlink"> <a href="index.html"> Home </a> </li>
           <li class="navigationlink"> <a href="ourvision.html"> Our Vision </a> </li>
           <li class="navigationlink"> <a href="volunteers.html"> Volunteers </a> </li>
           <li class="navigationlink"> <a href="organizations.html"> Organizations </a> </li>
-          <li class="navigationlink"> <a href="impactstories.html"> Social Impact Stories </a></li> 
           <li class="navigationlink"> <a href="about.html"> About </a> </li>
           <li class="navigationlink"> <a href="getintouch.html"> Get In Touch </a> </li>
         </ul> 
@@ -49,8 +54,10 @@
       <p>This unique, self sustainable open platform has one key purpose: Accelerating social impact through collaboration and linking local projects with our global presence.</p>
     </div>
 
-    <p class="teaser">Accelerating Social Impact</p>
-    <img class="matchprocess" src="images/matchprocess.png" alt="matchprocess">
+    <div class="process">
+      <p class="teaser">Accelerating Social Impact</p>
+      <img class="matchprocess" src="images/matchprocess.png" alt="matchprocess">
+    </div>
 
     <div class="wrapper">
       <section class="floatsection">
@@ -102,28 +109,38 @@
 
   <div>
     <section class="carousel">
-      <h3 class="socialimpact">Explore Our Social Impact Stories</p>
-      <img class="carousel_example" src="images/carousel_flow.png" alt="carousel">
+    <h3 class="socialimpact">Explore Our Social Impact Stories</p>
+    <div class="social">
+      <div class="slideshow">
+        <div class="socialcards">
+          <a href="https://twitter.com/match4action" target="_blank"><img class="picture" src="images/twitter_grey.png"></a>
+        </div>
+
+        <div class="socialcards">
+          <a href="https://facebook.com/match4action" target="_blank"><img class="picture" src="images/facebook_grey.png"></a>
+        </div>
+
+        <div class="socialcards">
+          <a id="instagram" href="https://twitter.com/match4action" target="_blank"><img class="picture" src="images/instagram_grey.png"></a>
+        </div>
+      </div>
+  </div>
+
     </section>
   </div>
 
   <div class="social">
     <div class="socialcards">
-      <a id="twitter" href="https://twitter.com/match4action" target="_blank"></a>
-      <img class="icon" src="images/twitter_blue.png">
+      <a href="https://twitter.com/match4action" target="_blank"><img class="picture" src="images/twitter_grey.png"></a>
       <p class="post"> "Let us remember: One book, one pen, one child, and one teacher can change the world." - Malala Yousafzai #WorldBookDay</p>
     </div>
-
     <div class="socialcards">
-      <a id="facebook" href="https://twitter.com/match4action" target="_blank"></a>
-      <img class="icon" src="images/facebook.png">
+      <a href="https://facebook.com/match4action" target="_blank"><img class="picture" src="images/facebook_grey.png"></a>
       <p class="post">Watch this space!</p>
     </div>
-
     <div class="socialcards">
-      <a id="instagram" href="https://twitter.com/match4action" target="_blank"></a>
-      <img class="icon" src="images/instagram.png">
-      <img class="post" img src="images/world.png">
+      <a id="instagram" href="https://twitter.com/match4action" target="_blank"><img class="picture" src="images/instagram_grey.png"></a>
+      <p class="post">Check out our Instagram pictures!</p>
     </div>
   </div>
 
@@ -137,13 +154,16 @@
           <li class="navigationfooter"> <a href="ourvision.html"> Our Vision </a> </li>
           <li class="navigationfooter" > <a href="volunteers.html"> Volunteers </a> </li>
           <li class="navigationfooter" > <a href="organization.html"> Organizations </a> </li>
-          <li class="navigationfooter" > <a href="impactstories.html"> Social Impact Stories </a></li> 
           <li class="navigationfooter" > <a href="about.html"> About </a> </li>
           <li class="navigationfooter" > <a href="getintouch.html"> Get In Touch </a> </li>
         </ul> 
       </nav>     
     </div>
   </footer>
-  </body>
 
+  <script src="scripts/jquery-3.2.1.min.js"></script>
+  <script src="scripts/slick.min.js"></script>
+  <script src="scripts/script.js"></script>
+
+  </body>
 </html>
