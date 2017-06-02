@@ -98,10 +98,8 @@ footer a:hover {
   background-image: url("../images/children40.png");
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 200px 0;
+  padding: 150px 0;
   color: #2F4F4F;
-  height: 500px;
-  height: 100vh;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;

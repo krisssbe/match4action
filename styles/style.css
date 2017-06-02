@@ -176,7 +176,15 @@ footer a:hover {
   display: block;
   margin: 0 auto;
   padding-bottom: 100px;
-}
+ }
+
+/*.step{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  float: left;
+}*/
+
 
 @media screen and (max-width: 900px) {
   .teaser {
@@ -184,9 +192,9 @@ footer a:hover {
   }
 }
 
-@media screen and (max-width: 1000px) {
-  .matchprocess {
-    width: 80%;
+@media screen and (max-width: 900px) {
+  .step {
+    width: 100%;
   }
 }
 
@@ -199,8 +207,6 @@ footer a:hover {
   background-size: cover;
   padding: 200px 0;
   color: #2F4F4F;
-  height: 500px;
-  height: 100vh;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
