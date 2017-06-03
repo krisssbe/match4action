@@ -63,20 +63,24 @@ footer a:hover {
   list-style-type: none;
 }
 
+#menu_toggler {
+float: right;
+}
+
 @media screen and (max-width: 800px) {
   #match4action {
     font-size: 20px;
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 980px) {
   .mainnavigation {
     display: block;
   }
 }
 
 @media screen and (max-width: 800px) {
-  #main_menu {
+  .mainnavigation {
     display: none;
   }
 }
@@ -90,12 +94,12 @@ footer a:hover {
 /*body*/
 
 #about_picture{
-  padding: 200px 0px 100px 200px;
+  padding: 200px 0px 100px 50px;
 }
 
 @media screen and (max-width: 1100px) {
   #about_picture {
-    width: 70%;
+    width: 100%;
   }
 }
 

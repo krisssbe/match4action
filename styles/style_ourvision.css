@@ -70,21 +70,24 @@ footer a:hover {
   list-style-type: none;
 }
 
+#menu_toggler {
+float: right;
+}
+
 @media screen and (max-width: 800px) {
   #match4action {
     font-size: 20px;
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 980px) {
   .mainnavigation {
     display: block;
-    font-size: 14px;
   }
 }
 
 @media screen and (max-width: 800px) {
-  #main_menu {
+  .mainnavigation {
     display: none;
   }
 }
