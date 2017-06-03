@@ -70,20 +70,24 @@ footer a:hover {
   list-style-type: none;
 }
 
+#menu_toggler {
+float: right;
+}
+
 @media screen and (max-width: 800px) {
   #match4action {
     font-size: 20px;
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 980px) {
   .mainnavigation {
     display: block;
   }
 }
 
 @media screen and (max-width: 800px) {
-  #main_menu {
+  .mainnavigation {
     display: none;
   }
 }
@@ -205,7 +209,7 @@ footer a:hover {
   background-image: url("../images/children40.png");
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 200px 0;
+  padding: 150px 0;
   color: #2F4F4F;
   display: flex;
   flex-wrap: wrap;
