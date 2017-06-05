@@ -101,7 +101,7 @@ float: right;
 /* main text w background pic */
 
 .ourvision{
-  padding: 250px 50px 100px 50px;
+  padding: 150px 50px 100px 50px;
   font-size: 20px;
   letter-spacing: 1px;  
   color: #2F4F4F;
@@ -113,18 +113,17 @@ float: right;
   text-align: center;
   padding-top: 10%;
   color: #2F4F4F;
-
 }
 
 @media screen and (max-width: 1000px) {
   .ourvision {
-    font-size: 13px;
+    font-size: 20px;
   }
 }
 
 @media screen and (max-width: 1000px) {
   #claim {
-    font-size: 17px;
+    font-size: 20px;
   }
 }
 /* footer */

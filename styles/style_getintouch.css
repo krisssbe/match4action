@@ -100,13 +100,14 @@ float: right;
 /* main part */
 
 .getintouch {
-  padding: 25% 10% 15% 10%;
+  padding: 150px 50px 100px 50px;
   letter-spacing: 1px;  
   font-size: 20px;
   color: #2F4F4F;
   height: 500px;
   height: 100vh;
 }
+
 
 /* footer */
 
