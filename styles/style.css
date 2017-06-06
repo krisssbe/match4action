@@ -234,6 +234,12 @@ h2{
   padding: 0 10%;
 }
 
+.findbutton{
+  text-decoration: none;
+  font-size: 16px;
+  color: #2F4F4F;
+}
+
 .socialimpact{
   font-size: bold;
   font-size: 32px;
