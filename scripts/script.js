@@ -1,7 +1,7 @@
 console.log('hello')
 
 $(document).ready(function(){
-  $('#menu_toggler').click(function(){
+  $('#menutoggler').click(function(){
     $('#main_menu').toggle();
   });
 

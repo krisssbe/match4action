@@ -63,7 +63,7 @@ footer a:hover {
   list-style-type: none;
 }
 
-#menu_toggler {
+#menutoggler {
 float: right;
 }
 
@@ -86,7 +86,7 @@ float: right;
 }
 
 @media screen and (min-width: 800px) {
-  #menu_toggler {
+  #menutoggler {
     display: none;
   }
 }
