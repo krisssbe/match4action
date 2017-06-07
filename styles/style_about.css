@@ -21,7 +21,7 @@ header {
   width: 45px;
   height: 45px;
   float: left;
-  margin: 10px 10px;
+  margin: 0 10px 0 20px;
 }
 
 header h1 {
@@ -42,55 +42,48 @@ footer a:hover {
   text-decoration: underline;
 }
 
+.navigationheader{
+  margin: 30px 150px 0 150px;
+}
+
 .mainnavigation {
-  margin: 15px 0;
   display: flex; 
   justify-content: space-between;
   flex-wrap: wrap;
-}
-
-.navigationheader{
-  margin: 20px 20px 20px 0;
-  padding: 0;
-  float: right;
+  padding: 0 100px; 
 }
 
 .navigationlink {
-  font-size: 18px;
+  font-size: 16px;
   letter-spacing: 1px;  
   text-decoration: none;
-  margin-left: 1em;
+  padding: 10px 10px;
   list-style-type: none;
 }
 
 #menutoggler {
-float: right;
-font-size: 18px;
+  float: left;
+  font-size: 18px;
 }
 
-@media screen and (max-width: 800px) {
-  #match4action {
-    font-size: 20px;
+@media screen and (max-width: 1290px) {
+  .navigationlink {
+    font-size: 14px;
   }
 }
 
-@media screen and (max-width: 980px) {
-  .mainnavigation {
-    display: block;
+@media screen and (max-width: 1230px) {
+  .navigationlink {
+    width: 100%
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 950px) {
   .mainnavigation {
     display: none;
   }
 }
 
-@media screen and (min-width: 800px) {
-  #menutoggler {
-    display: none;
-  }
-}
 
 /*body*/
 
