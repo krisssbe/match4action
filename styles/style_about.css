@@ -7,6 +7,10 @@ html {
   box-sizing: inherit;
 }
 
+body{
+  font-family: sans-serif;  
+}
+
 header {
   overflow: auto; 
   font-family: sans-serif;  
@@ -15,6 +19,7 @@ header {
   top: 0;
   left: 0;
   right: 0;
+  z-index: 1;
 }
 
 #logo{
@@ -22,12 +27,6 @@ header {
   height: 45px;
   float: left;
   margin: 0 10px 0 20px;
-}
-
-header h1 {
-  margin: 20px 0;
-  font-size: 32px;
-  float: left;
 }
 
 /* Apply the same rules to both header and footer */
@@ -50,11 +49,11 @@ footer a:hover {
   display: flex; 
   justify-content: space-between;
   flex-wrap: wrap;
-  padding: 0 100px; 
+  padding: 0 130px; 
 }
 
 .navigationlink {
-  font-size: 16px;
+  font-size: 18px;
   letter-spacing: 1px;  
   text-decoration: none;
   padding: 10px 10px;
