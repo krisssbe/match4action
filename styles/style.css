@@ -71,8 +71,8 @@ footer a:hover {
 }
 
 #menutoggler {
-float: right;
-font-size: 18px;
+  float: right;
+  font-size: 18px;
 }
 
 @media screen and (max-width: 800px) {
@@ -105,11 +105,11 @@ font-size: 18px;
   padding: 50px;
   letter-spacing: 1px;  
   color: #2F4F4F;
-  background-image: url("../images/hand_psd.png");
+  background-image: url("../images/hands.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 45%;
+  background-size: 40%;
   height: 500px;
   height: 100vh;
   position: relative;
@@ -236,8 +236,9 @@ h2{
 
 .findbutton{
   text-decoration: none;
-  font-size: 16px;
+  font-size: 18px;
   color: #2F4F4F;
+  font-weight: bold;
 }
 
 .socialimpact{

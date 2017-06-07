@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="styles/slick-theme.css"> 
     <link rel="stylesheet" href="styles/style.css">
 
-    <title>Match4Action - Matching good people to good causes</title>
+    <title>Match4Action - Matching Good People With Good Causes</title>
   </head>
 
   <body>
@@ -39,7 +39,7 @@
     </div>
 
     <div class="vision">
-      <p>Match4Action connects those volunteering their skills with those in need for remote or local project support, advice, collaboration and mentoring.</p>
+      <p>Match4Action connects those wanting to volunteer their skills with those in need for remote or local project support, advice, collaboration and mentoring.</p>
 
       <p>Our smart technology platform uses the latest machine learning, artificial intelligence and virtual assistants to match the demand for resources for social impact with the skills and resources available, anywhere in the world. We use blockchain to create and manage a social impact currency.</p>
 
@@ -54,36 +54,35 @@
 
     <div class="wrapper">
       
-      <section class="floatsection">
+      <div class="floatsection">
         <h2 class="lowerheader">Volunteers</h2>
         <p class="lowerp">Want to help accelerate social impact and change in the world? Get involved now and find the right match for you.</p>
         <div class="buttonfloatsection">
-          <button class="findbutton"><a href="#myPopup">FIND A CAUSE</a></button>
+          <button><a class="findbutton" href="#myPopup">FIND A CAUSE</a></button>
           <div data-role="popup" id="myPopup" class="ui-content">
-            <form method="post" action="/action_page_post.php">
+            <form method="POST" action="https://formspree.io/match4action@gmail.com">
               <div>
-                <label for="log"></label>
                 <label for="name">Name</label>
-                <input type="text" name="name" id="usrnm" placeholder="Name">
+                <input type="text" name="name" placeholder="Name">
                 <br>
                 <label for="email">Email</label>
-                <input type="text" name="email" id="email" placeholder="Email">
+                <input type="text" name="email" placeholder="Email">
                 <br>
                 <label for="message">Message</label>
-                <input type="text" name="message" id="message" placeholder="Send us your contact details and a message about what you are looking for and we will get back to you very shortly. We are looking forward to hearing from you!">
+                <textarea type="text" name="message" placeholder="Send us your contact details and a message about what you are looking for and we will get back to you very shortly. We are looking forward to hearing from you!"></textarea>
                 <br>
                 <button <a href="Submit">SUBMIT</a></button>
               </div>
             </form>
           </div>
         </div>
-      </section>
+      </div>
 
-      <section class="floatsection">
+      <div class="floatsection">
         <h2 class="lowerheader">Organisations</h2>
         <p class="lowerp">Need someone who can help you out? Look no further. Get matched with the best skilled volunteer.</p>
         <div class="buttonfloatsection">
-          <button><a href="#myPopup">FIND A VOLUNTEER</a></button>
+          <button><a class="findbutton" href="#myPopup">FIND A VOLUNTEER</a></button>
           <div data-role="popup" id="myPopup" class="ui-content">
             <form method="post" action="/action_page_post.php">
             <div>
@@ -102,7 +101,7 @@
           </form>
           </div>
         </div>
-      </section>
+      </div>
       
     </div>
 
