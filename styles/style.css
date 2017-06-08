@@ -83,18 +83,23 @@ footer a:hover {
   }
 }
 
+@media screen and (max-width: 950px) {
+  .navigationheader {
+    margin: 0;
+  }
+}
 
 /* hands and vision */
 
 .hands{
-  padding: 50px;
+  padding: 100px;
   letter-spacing: 1px;  
   color: #2F4F4F;
-  background-image: url("../images/hands.png");
+  background-image: url("../images/map.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 40%;
+  background-size: cover;
   height: 500px;
   height: 100vh;
   position: relative;
@@ -213,10 +218,13 @@ h2{
 }
 
 .floatsection{
-  width: 50%;
+  width: 45%;
+  margin: 10px 20px;
   float: left;
   letter-spacing: 1px;  
-  padding: 0 10%;
+  padding: 0 5%;
+  border: outset;
+  border-radius: 25px;
 }
 
 .findbutton{
@@ -224,6 +232,14 @@ h2{
   font-size: 18px;
   color: #2F4F4F;
   font-weight: bold;
+}
+
+.box{
+  width: 80%;
+}
+
+.buttonfloatsection{
+  padding-bottom: 20px;
 }
 
 .socialimpact{

@@ -83,6 +83,12 @@ footer a:hover {
   }
 }
 
+@media screen and (max-width: 950px) {
+  .navigationheader {
+    margin: 0;
+  }
+}
+
 
 /*body*/
 

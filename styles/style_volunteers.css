@@ -83,6 +83,11 @@ footer a:hover {
   }
 }
 
+@media screen and (max-width: 950px) {
+  .navigationheader {
+    margin: 0;
+  }
+}
 
 /* main part */
 
@@ -111,10 +116,13 @@ h2{
 }
 
 .floatsection{
-  width: 50%;
+  width: 45%;
+  margin: 10px 20px;
   float: left;
   letter-spacing: 1px;  
-  padding: 0 10%;
+  padding: 0 5%;
+  border: outset;
+  border-radius: 25px;
 }
 
 .findbutton{
@@ -122,6 +130,10 @@ h2{
   font-size: 18px;
   color: #2F4F4F;
   font-weight: bold;
+}
+
+.box{
+  width: 80%;
 }
 
 .socialimpact{
