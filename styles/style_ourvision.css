@@ -30,6 +30,7 @@ header {
 }
 
 /* Apply the same rules to both header and footer */
+
 header a,
 footer a {
   text-decoration: none;
@@ -42,7 +43,7 @@ footer a:hover {
 }
 
 .navigationheader{
-  margin: 30px 150px 0 150px;
+  margin: 20px 150px 0 0;
 }
 
 .mainnavigation {
@@ -63,6 +64,10 @@ footer a:hover {
 #menutoggler {
   float: left;
   font-size: 18px;
+  padding: 10px 10px;
+  background-color: transparent;
+  border: none;
+  outline: none;
 }
 
 @media screen and (max-width: 1290px) {
@@ -83,16 +88,11 @@ footer a:hover {
   }
 }
 
-@media screen and (max-width: 950px) {
-  .navigationheader {
-    margin: 0;
-  }
-}
-
 /* main text w background pic */
 
 .ourvision{
   padding: 150px 50px 100px 50px;
+  overflow: auto;
   font-size: 20px;
   letter-spacing: 1px;  
   color: #2F4F4F;
@@ -119,6 +119,7 @@ footer a:hover {
     font-size: 20px;
   }
 }
+
 /* footer */
 
 footer{  
@@ -146,8 +147,9 @@ h4{
   margin-right: 10px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   .navigationfooter {
     display: none;
   }
 }
+

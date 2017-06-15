@@ -42,7 +42,7 @@ footer a:hover {
 }
 
 .navigationheader{
-  margin: 30px 150px 0 150px;
+  margin: 20px 150px 0 0;
 }
 
 .mainnavigation {
@@ -63,6 +63,10 @@ footer a:hover {
 #menutoggler {
   float: left;
   font-size: 18px;
+  padding: 10px 10px;
+  background-color: transparent;
+  border: none;
+  outline: none;
 }
 
 @media screen and (max-width: 1290px) {
@@ -83,13 +87,6 @@ footer a:hover {
   }
 }
 
-@media screen and (max-width: 950px) {
-  .navigationheader {
-    margin: 0;
-  }
-}
-
-
 /*body*/
 
 #about_picture{
@@ -107,7 +104,6 @@ footer a:hover {
 footer{  
   overflow: auto;
   font-size: 18px;
-  font-family: sans-serif;  
   background-color: white;
   border-top: 15px solid #F5F5F5;
 }
@@ -124,14 +120,13 @@ h4{
 .navigationfooter {
   float: left;
   display: inline;
-  font-family: sans-serif;  
   font-size: 14px;
   letter-spacing: 1px; 
   margin-left: 1em;
   margin-right: 10px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   .navigationfooter {
     display: none;
   }

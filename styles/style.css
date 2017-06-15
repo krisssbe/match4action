@@ -39,10 +39,11 @@ footer a {
 header a:hover,
 footer a:hover {
   text-decoration: underline;
+   cursor: pointer;
 }
 
 .navigationheader{
-  margin: 30px 150px 0 150px;
+  margin: 20px 150px 20px 0;
 }
 
 .mainnavigation {
@@ -63,6 +64,10 @@ footer a:hover {
 #menutoggler {
   float: left;
   font-size: 18px;
+  padding: 10px 10px;
+  background-color: transparent;
+  border: none;
+  outline: none;
 }
 
 @media screen and (max-width: 1290px) {
@@ -83,11 +88,6 @@ footer a:hover {
   }
 }
 
-@media screen and (max-width: 950px) {
-  .navigationheader {
-    margin: 0;
-  }
-}
 
 /* hands and vision */
 
@@ -95,11 +95,11 @@ footer a:hover {
   padding: 100px;
   letter-spacing: 1px;  
   color: #2F4F4F;
-  background-image: url("../images/map.png");
+  background-image: url("../images/hands.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover;
+  background-size: 45%;
   height: 500px;
   height: 100vh;
   position: relative;
@@ -197,7 +197,7 @@ footer a:hover {
 
 .wrapper{
   overflow: auto;
-  background-image: url("../images/children40.png");
+  background-image: url("../images/children50.png");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 150px 0;

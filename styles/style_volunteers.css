@@ -30,6 +30,7 @@ header {
 }
 
 /* Apply the same rules to both header and footer */
+
 header a,
 footer a {
   text-decoration: none;
@@ -42,7 +43,7 @@ footer a:hover {
 }
 
 .navigationheader{
-  margin: 30px 150px 0 150px;
+  margin: 20px 150px 0 0;
 }
 
 .mainnavigation {
@@ -63,6 +64,10 @@ footer a:hover {
 #menutoggler {
   float: left;
   font-size: 18px;
+  padding: 10px 10px;
+  background-color: transparent;
+  border: none;
+  outline: none;
 }
 
 @media screen and (max-width: 1290px) {
@@ -83,17 +88,11 @@ footer a:hover {
   }
 }
 
-@media screen and (max-width: 950px) {
-  .navigationheader {
-    margin: 0;
-  }
-}
-
 /* main part */
 
 .wrapper{
   overflow: auto;
-  background-image: url("../images/children40.png");
+  background-image: url("../images/children50.png");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 150px 0;
@@ -101,8 +100,6 @@ footer a:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  height: 500px;
-  height: 100vh;
 }
 
 h2{
@@ -136,6 +133,10 @@ h2{
   width: 80%;
 }
 
+.buttonfloatsection{
+  padding-bottom: 20px;
+}
+
 .socialimpact{
   font-size: bold;
   font-size: 32px;
@@ -167,7 +168,6 @@ h2{
 footer{  
   overflow: auto;
   font-size: 18px;
-  font-family: sans-serif;  
   background-color: white;
   border-top: 15px solid #F5F5F5;
 }
@@ -184,14 +184,13 @@ h4{
 .navigationfooter {
   float: left;
   display: inline;
-  font-family: sans-serif;  
   font-size: 14px;
   letter-spacing: 1px; 
   margin-left: 1em;
   margin-right: 10px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   .navigationfooter {
     display: none;
   }
