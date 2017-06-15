@@ -92,14 +92,14 @@ footer a:hover {
 /* hands and vision */
 
 .hands{
-  padding: 100px;
-  letter-spacing: 1px;  
-  color: #2F4F4F;
   background-image: url("../images/hands.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 45%;
+  padding: 100px;
+  letter-spacing: 1px;  
+  color: #2F4F4F;
   height: 500px;
   height: 100vh;
   position: relative;
@@ -109,8 +109,8 @@ footer a:hover {
 .statement{
   font-size: 30px;
   color: #2F4F4F;
-  position: absolute;
-  bottom: 20%;
+  position: relative;
+  top: 50%;
 }
 
 @media screen and (max-width: 1200px) {
@@ -131,6 +131,12 @@ footer a:hover {
   padding: 50px 50px;
   font-size: 24px;
   color: #2F4F4F;
+  text-align: center;
+  background-image: url("../images/green.png");
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  height: 100vh;
 }
 
 @media screen and (max-width: 1200px) {
