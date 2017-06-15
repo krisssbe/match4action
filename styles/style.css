@@ -96,6 +96,7 @@ footer a:hover {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-size: 45%;
   padding: 100px;
   letter-spacing: 1px;  
   color: #2F4F4F;
@@ -121,12 +122,11 @@ footer a:hover {
 @media screen and (max-width: 1065px) {
   .statement {
     font-size: 20px;
-    color: white;
     font-weight: bold;
     top: 30%;
   }
   .hands{
-    background-size: cover;
+    background-size: 100%;
   }
 }
 
