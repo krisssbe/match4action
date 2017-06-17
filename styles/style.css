@@ -101,7 +101,6 @@ footer a:hover {
   background-image: url("../images/hands.png");
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-size: 45%;
   padding: 100px;
   letter-spacing: 1px;  
