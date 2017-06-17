@@ -1,9 +1,20 @@
 console.log('hello')
 
-$(document).ready(function(){
-  $('#menutoggler').click(function(){
-    $('#main_menu').toggle();
-  });
+$( "#cross" ).hide();
+$( ".mainnavigation" ).hide();
+$( "#hamburger" ).click(function() {
+$( ".mainnavigation" ).slideToggle( "slow", function() {
+$( "#hamburger" ).hide();
+$( "#cross" ).show();
+});
+});
+
+$( "#cross" ).click(function() {
+$( ".mainnavigation" ).slideToggle( "slow", function() {
+$( "#cross" ).hide();
+$( "#hamburger" ).show();
+});
+});
 
   $('.slideshow').slick({
     infinite: true,
@@ -22,4 +33,4 @@ $(document).ready(function(){
       }
     ]
   });
-});
+
