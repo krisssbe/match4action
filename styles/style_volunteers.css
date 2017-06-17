@@ -22,13 +22,6 @@ header {
   z-index: 1;
 }
 
-#logo{
-  width: 45px;
-  height: 45px;
-  float: left;
-  margin: 0 10px 0 20px;
-}
-
 /* Apply the same rules to both header and footer */
 
 header a,
@@ -42,6 +35,8 @@ footer a:hover {
   text-decoration: underline;
 }
 
+/*hamburger menu*/
+
 .navigationheader{
   margin: 20px 150px 0 0;
 }
@@ -51,6 +46,7 @@ footer a:hover {
   justify-content: space-between;
   flex-wrap: wrap;
   padding: 0 130px; 
+  background: white;
 }
 
 .navigationlink {
@@ -59,6 +55,7 @@ footer a:hover {
   text-decoration: none;
   padding: 10px 10px;
   list-style-type: none;
+  text-align: center;
 }
 
 #menutoggler {
@@ -68,6 +65,14 @@ footer a:hover {
   background-color: transparent;
   border: none;
   outline: none;
+}
+
+button {
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 20px;
+  left: 20px;
 }
 
 @media screen and (max-width: 1290px) {
@@ -82,11 +87,21 @@ footer a:hover {
   }
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 630px) {
   .mainnavigation {
     display: none;
   }
 }
+
+@media screen and (max-width: 630px) {
+  ul {
+    /*display: none;*/
+    position: fixed;
+    top: 35px;
+    width: 50%
+  }
+}
+
 
 /* main part */
 

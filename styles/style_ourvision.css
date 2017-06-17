@@ -22,13 +22,6 @@ header {
   z-index: 1;
 }
 
-#logo{
-  width: 45px;
-  height: 45px;
-  float: left;
-  margin: 0 10px 0 20px;
-}
-
 /* Apply the same rules to both header and footer */
 
 header a,
@@ -43,7 +36,6 @@ footer a:hover {
 }
 
 /*hamburger menu*/
-
 
 .navigationheader{
   margin: 20px 150px 0 0;
@@ -107,12 +99,6 @@ button {
     position: fixed;
     top: 35px;
     width: 50%
-  }
-  ul li {
-    width: 100%;
-  }
-  section {
-    margin-top: 50px;
   }
 }
 

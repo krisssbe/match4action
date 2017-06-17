@@ -1,7 +1,6 @@
 console.log('hello')
 
 $( "#cross" ).hide();
-$( ".mainnavigation" ).hide();
 $( "#hamburger" ).click(function() {
 $( ".mainnavigation" ).slideToggle( "slow", function() {
 $( "#hamburger" ).hide();
