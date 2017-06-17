@@ -46,7 +46,6 @@ footer a:hover {
   justify-content: space-between;
   flex-wrap: wrap;
   padding: 0 130px; 
-  background: white;
 }
 
 .navigationlink {
@@ -60,19 +59,12 @@ footer a:hover {
 
 #menutoggler {
   float: left;
+  position: fixed;
   font-size: 18px;
   padding: 0 10px 10px 10px;
   background-color: transparent;
   border: none;
   outline: none;
-}
-
-button {
-  margin: 0;
-  padding: 0;
-  position: fixed;
-  top: 20px;
-  left: 20px;
 }
 
 @media screen and (max-width: 1290px) {
@@ -391,6 +383,13 @@ h4{
   letter-spacing: 1px; 
   margin-left: 1em;
   margin-right: 10px;
+}
+
+#logo{
+  width: 45px;
+  height: 45px;
+  float: left;
+  margin: 0 10px 0 20px;
 }
 
 @media screen and (max-width: 1000px) {
