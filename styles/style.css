@@ -140,9 +140,6 @@ footer a:hover {
 
 .vision{
   padding: 50px 50px;
-  font-size: 24px;
-  color: #2F4F4F;
-  text-align: center;
   background-image: url("../images/green.png");
   background-position: center;
   background-size: cover;
@@ -150,15 +147,17 @@ footer a:hover {
   height: 100vh;
 }
 
-@media screen and (max-width: 1200px) {
-  .vision {
-    font-size: 24px;
-  }
+.visiontext{
+  font-size: 24px;
+  color: #2F4F4F;
+  text-align: center;
 }
 
-@media screen and (max-width: 1065px) {
-  .vision {
+@media screen and (max-width: 950px) {
+  .visiontext {
     font-size: 20px;
+    border: outset;
+    border-radius: 25px;
     text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
   }
 }
