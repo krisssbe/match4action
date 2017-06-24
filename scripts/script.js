@@ -1,17 +1,17 @@
 console.log('hello')
 
-$( "#cross" ).hide();
-$( "#hamburger" ).click(function() {
-$( ".mainnavigation" ).slideToggle( "slow", function() {
 $( "#hamburger" ).hide();
-$( "#cross" ).show();
-});
-});
-
 $( "#cross" ).click(function() {
 $( ".mainnavigation" ).slideToggle( "slow", function() {
 $( "#cross" ).hide();
 $( "#hamburger" ).show();
+});
+});
+
+$( "#hamburger" ).click(function() {
+$( ".mainnavigation" ).slideToggle( "slow", function() {
+$( "#hamburger" ).hide();
+$( "#cross" ).show();
 });
 });
 
