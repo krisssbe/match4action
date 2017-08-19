@@ -59,8 +59,8 @@ footer a:hover {
 .mainnavigation {
   display: flex; 
   justify-content: space-between;
-  flex-wrap: wrap;
   padding: 0 130px; 
+  background-color: white;
 }
 
 .navigationlink {
@@ -72,47 +72,45 @@ footer a:hover {
   text-align: center;
 }
 
-@media screen and (max-width: 1290px) {
+@media screen and (max-width: 1100px) {
   .navigationlink {
     font-size: 14px;
   }
 }
 
-@media screen and (max-width: 1230px) {
+@media screen and (max-width: 900px) {
   .navigationlink {
-    width: 100%
+    font-size: 10px;
+  }
+  .mainnavigation{
+    padding: 0;
+    padding-left: 100px;
   }
 }
 
-@media screen and (max-width: 630px) {
-  .mainnavigation {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 630px) {
-  ul {
-    /*display: none;*/
-    position: fixed;
-    top: 35px;
-    width: 50%
+@media screen and (max-width: 600px) {
+  .mainnavigation{
+    padding-left: 70px;
   }
 }
 
 /*main section*/
 
-.about{
+.main{
+  background-image: url("../images/team.png");
+  background-position: center;
+  background-size: 75%;
+  background-repeat: no-repeat;
+  padding: 300px 40px;
   height: 500px;
   height: 100vh;
 }
 
-#about_picture{
-  padding-top: 150px;
-}
-
-@media screen and (max-width: 630px) {
-  ul {
-    width: 50%;
+@media screen and (max-width: 600px) {
+  .main {
+    background-size: 100%;
+    padding: 100px 40px;
+    height: 80vh;
   }
 }
 

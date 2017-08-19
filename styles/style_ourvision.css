@@ -37,7 +37,6 @@ footer a:hover {
 
 /*hamburger menu*/
 
-
 .navigationheader{
   margin: 20px 150px 0 0;
 }
@@ -60,8 +59,8 @@ footer a:hover {
 .mainnavigation {
   display: flex; 
   justify-content: space-between;
-  flex-wrap: wrap;
   padding: 0 130px; 
+  background-color: white;
 }
 
 .navigationlink {
@@ -73,32 +72,28 @@ footer a:hover {
   text-align: center;
 }
 
-@media screen and (max-width: 1290px) {
+@media screen and (max-width: 1100px) {
   .navigationlink {
     font-size: 14px;
   }
 }
 
-@media screen and (max-width: 1230px) {
+@media screen and (max-width: 900px) {
   .navigationlink {
-    width: 100%
+    font-size: 10px;
+  }
+  .mainnavigation{
+    padding: 0;
+    padding-left: 100px;
   }
 }
 
-@media screen and (max-width: 630px) {
-  .mainnavigation {
-    display: none;
+@media screen and (max-width: 600px) {
+  .mainnavigation{
+    padding-left: 70px;
   }
 }
 
-@media screen and (max-width: 630px) {
-  ul {
-    /*display: none;*/
-    position: fixed;
-    top: 35px;
-    width: 50%
-  }
-}
 
 /* main text w background pic */
 
@@ -121,14 +116,16 @@ footer a:hover {
 }
 
 @media screen and (max-width: 1000px) {
-  .ourvision {
+  #claim {
     font-size: 20px;
   }
 }
 
-@media screen and (max-width: 1000px) {
-  #claim {
-    font-size: 20px;
+@media screen and (max-width: 600px) {
+  .ourvision {
+    font-size: 16px;
+    padding: 100px 40px;
+    height: 90vh;
   }
 }
 

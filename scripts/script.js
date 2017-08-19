@@ -2,14 +2,14 @@ console.log('hello')
 
 $( "#hamburger" ).hide();
 $( "#cross" ).click(function() {
-$( ".mainnavigation" ).slideToggle( "slow", function() {
+$( ".mainnavigation" ).slideToggle( "toggle", function() {
 $( "#cross" ).hide();
 $( "#hamburger" ).show();
 });
 });
 
 $( "#hamburger" ).click(function() {
-$( ".mainnavigation" ).slideToggle( "slow", function() {
+$( ".mainnavigation" ).slideToggle( "toggle", function() {
 $( "#hamburger" ).hide();
 $( "#cross" ).show();
 });
