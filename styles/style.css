@@ -61,6 +61,7 @@ footer a:hover {
   justify-content: space-between;
   flex-wrap: wrap;
   padding: 0 130px; 
+  background-color: white;
 }
 
 .navigationlink {
@@ -72,13 +73,13 @@ footer a:hover {
   text-align: center;
 }
 
-@media screen and (max-width: 1290px) {
+@media screen and (max-width: 1100px) {
   .navigationlink {
     font-size: 14px;
   }
 }
 
-@media screen and (max-width: 1230px) {
+@media screen and (max-width: 900px) {
   .navigationlink {
     width: 100%
   }
@@ -117,75 +118,76 @@ footer a:hover {
 } */
 
 .opener{
-  border-bottom: 15px solid #F5F5F5;
-  padding: 150px 20px;
-  background-image: url("../images/mapbluegreen.png");
-  background-position: center;
-  background-size: cover;
+  padding: 120px 20px;
+  background-image: url("../images/green.png");
+  background-position: 200px 200px;
+  background-size: 60%;
+  background-repeat: no-repeat;
   display: flex; 
   justify-content: space-between;
   flex-wrap: wrap;
   height: 500px;
   height: 100vh;
+  border-bottom: 15px solid #F5F5F5;
 }
 
 #statement{
-  border-radius: 25px;
-  width: 40%;
-  font-size: 30px;
-  color: #2F4F4F;
-  top: 50%;
+  position: absolute;
+  text-align: center;
+  right: 0;
+  left: 0;
+  padding: 10px;
+  font-size: 32px;
+  color: slategrey;
   font-weight: bold;
-  margin: auto;
-  color: white;
-}
+ }
 
 @media screen and (max-width: 1200px) {
   #statement {
     font-size: 26px;
   }
+  .opener{
+    background-size: 80%;
+    background-position: 100px 200px;
+  }
 }
 
 @media screen and (max-width: 1065px) {
   #statement {
-    font-size: 23px;
-    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
-    top: 30%;
+    font-size: 25px;
+    top: 20%;
   }
   .opener{
-    background-size: 100%;
+    background-size: 80%;
+    background-position: 120px 200px;
   }
 }
 
 /* first text field, vision */
 
 .vision{
-  padding: 50px 50px;
-  background-image: url("../images/green.png");
-  background-position: center;
-  background-size: cover;
+  padding: 100px 100px;
   height: 500px;
   height: 100vh;
+  background-color: #A9A9A9;
 }
 
 .visiontext{
   margin-top: 10%; 
-  font-size: 24px;
-  color: #2F4F4F;
-  text-align: center;
+  font-size: 30px;
+  color: white;
 }
 
 @media screen and (max-width: 950px) {
   .visiontext {
-    font-size: 20px;
-    border: outset;
-    border-radius: 25px;
+    font-size: 24px;
+    float: left;
   }
 }
 
 @media screen and (max-width: 800px) {
   .vision {
-    font-size: 16px;
+    font-size: 20px;
   }
 }
 

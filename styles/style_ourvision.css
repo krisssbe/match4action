@@ -37,8 +37,24 @@ footer a:hover {
 
 /*hamburger menu*/
 
+
 .navigationheader{
   margin: 20px 150px 0 0;
+}
+
+.menutoggler {
+  float: left;
+  position: fixed;
+  font-size: 18px;
+  padding: 0 10px 10px 10px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+#resize{
+  width: 50px;
+  height: auto;
 }
 
 .mainnavigation {
@@ -46,7 +62,6 @@ footer a:hover {
   justify-content: space-between;
   flex-wrap: wrap;
   padding: 0 130px; 
-  background: white;
 }
 
 .navigationlink {
@@ -56,15 +71,6 @@ footer a:hover {
   padding: 10px 10px;
   list-style-type: none;
   text-align: center;
-}
-
-#menutoggler {
-  float: left;
-  font-size: 18px;
-  padding: 0 10px 10px 10px;
-  background-color: transparent;
-  border: none;
-  outline: none;
 }
 
 @media screen and (max-width: 1290px) {
