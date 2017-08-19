@@ -170,7 +170,7 @@ footer a:hover {
   }
   .opener{
     background-size: 80%;
-    background-position: 50px 300px;
+    background-position: 40px 300px;
     height: 85vh;
   }
 }
@@ -334,6 +334,7 @@ h2{
   .wrapper{
     padding: 50px;
   }
+}
 
 /* carousel with impact stories */
 /*.carousel{
