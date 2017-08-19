@@ -163,6 +163,18 @@ footer a:hover {
   }
 }
 
+@media screen and (max-width: 600px) {
+  #statement {
+    font-size: 25px;
+    top: 20%;
+  }
+  .opener{
+    background-size: 80%;
+    background-position: 50px 300px;
+    height: 85vh;
+  }
+}
+
 /* first text field, vision */
 
 .vision{
@@ -174,20 +186,29 @@ footer a:hover {
 
 .visiontext{
   margin-top: 10%; 
-  font-size: 30px;
+  font-size: 28px;
   color: white;
 }
 
 @media screen and (max-width: 950px) {
   .visiontext {
     font-size: 24px;
-    float: left;
   }
 }
 
 @media screen and (max-width: 800px) {
-  .vision {
+  .visiontext {
     font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .vision{
+    padding: 50px;
+    height: 95vh;
+  }
+  .visiontext {
+    font-size: 18px;
   }
 }
 
@@ -231,6 +252,8 @@ footer a:hover {
     width: 80%;
   }
 }
+
+
 
 /* volunteer & organisation section */
 
@@ -306,6 +329,11 @@ h2{
     font-size: 16px;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .wrapper{
+    padding: 50px;
+  }
 
 /* carousel with impact stories */
 /*.carousel{
